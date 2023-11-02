@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion":"1",
+    "Image":{
+        "Name":"keziahq/firstrepo:new",
+        "Update": "true"
+    },
+
+    "Ports":[
+        {
+            "ContainerPort":5000,
+            "HostPort":80
+        }
+    ]
+}
